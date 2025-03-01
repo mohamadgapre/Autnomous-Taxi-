@@ -32,7 +32,7 @@ def dijkstra(graph, start, end):
     # Reconstruct shortest path
     path = []
     current = end
-    while current is not start:
+    while current:
         path.append(current)
         current = previous_nodes[current]
     path.reverse()  # Reverse to get correct order

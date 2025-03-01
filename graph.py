@@ -1,7 +1,7 @@
 graph = {
     'A': {
         'coordinates': {'x': 175, 'y': 459},
-        'F': {'weight': 261, 'pedestrians': False, 'construction': False},
+        #'F': {'weight': 261, 'direction': 'L', 'pedestrians': False, 'construction': False},
         'G': {'weight': 195, 'pedestrians': True, 'construction': False},
         'B': {'weight': 1355, 'pedestrians': False, 'construction': False},
     },
@@ -157,5 +157,3 @@ graph = {
         'W': {'weight': 228, 'pedestrians': False, 'construction': False}
     }
 }
-
-
